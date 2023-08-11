@@ -53,3 +53,13 @@ pnpm dev
 将你的 国内域名 CNAME 到 Vercel 平台，享受高速的 OpenAI 服务吧！
 
 如何配置国内域名：https://juejin.cn/post/7222558002909085756
+
+## 如何使用代理服务
+
+1、使用 OpenAI 的代理服务，只需将路径设置为 "/api/openai"即可，如下在 PostMan 中测试。
+
+![](./assets/7.png)
+
+2、使用 Azure OpenAI 的代理服务，只需将路径设置为 "/api/azure"即可，如下在 PostMan 中测试。
+
+![](./assets/8.png)
