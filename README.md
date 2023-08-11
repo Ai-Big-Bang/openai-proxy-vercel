@@ -36,11 +36,7 @@ pnpm dev
 
 ![](./assets/4.png)
 
-5. 配置 Vercel 应用的环境变量。
-
-如果直接使用 OpenAI 官方的 API，只需要配置 OPENAI_API_KEY
-
-如果使用微软 azure 的 OpenAI 服务，需要配置 AZURE_OPENAI_BASE_URL、AZURE_OPENAI_API_KEY、AZURE_OPENAI_API_VERSION
+5. 配置 Vercel 应用的环境变量，如果直接使用 OpenAI 官方的 API，只需要配置 OPENAI_API_KEY；如果使用微软 azure 的 OpenAI 服务，需要配置 AZURE_OPENAI_BASE_URL、AZURE_OPENAI_API_KEY、AZURE_OPENAI_API_VERSION
 
 ![](./assets/5.png)
 
