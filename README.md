@@ -34,12 +34,22 @@ pnpm dev
 
 4. 您可以通过在 Vercel 应用中选择“Add New Project”来检索您的 Github 或 GitLab 仓库，选择您 fork 过来的项目。
 
+![](./assets/4.png)
+
 5. 配置 Vercel 应用的环境变量。
 
 如果直接使用 OpenAI 官方的 API，只需要配置 OPENAI_API_KEY
 
 如果使用微软 azure 的 OpenAI 服务，需要配置 AZURE_OPENAI_BASE_URL、AZURE_OPENAI_API_KEY、AZURE_OPENAI_API_VERSION
 
-6. 部署您的项目并等待 Vercel 完成构建和部署。
+![](./assets/5.png)
 
-7、部署完成后，在首页会看到“Success Run OpenAI Proxy！！！”
+6. 部署您的项目并等待 Vercel 完成构建和部署，部署完成后，在首页会看到“Success Run OpenAI Proxy！！！”
+
+![](./assets/6.png)
+
+## 配置你的国内域名
+
+将你的 国内域名 CNAME 到 Vercel 平台，享受高速的 OpenAI 服务吧！
+
+如何配置国内域名：https://juejin.cn/post/7222558002909085756
