@@ -1,6 +1,15 @@
 # openai-proxy-vercel
 
-openai-proxy-vercel 是一个解决与 OpenAI 对接速度慢的开源项目，它主要包含两个方面的优化：CDN 加速和 Stream 传输。通过使用 CDN 加速和 Stream 传输，我们可以更快地接入 OpenAI 服务。此项目使用 Vercel 平台提供的 CDN 服务，将数据分布到全球多个节点上，从而实现网页访问的加速。而 Stream 传输则是 OpenAI 提供的一种流式数据传输模式，可以加速对接 OpenAI 服务，减少响应时间。
+openai-proxy-vercel 是一个解决在国内与 OpenAI 对接速度慢的开源项目，它主要包含两个方面的优化：CDN 加速和 Stream 传输。
+
+通过使用 CDN 加速和 Stream 传输，我们可以更快地接入 OpenAI 服务。此项目使用 Vercel 平台提供的 CDN 服务，将数据分布到全球多个节点上，从而实现网页访问的加速。
+
+而 Stream 传输则是 OpenAI 提供的一种流式数据传输模式，可以加速对接 OpenAI 服务，减少响应时间。
+
+## 功能特性
+
+- [✅] 代理官方 OpenAI 的流量
+- [✅] 代理 Azure OpenAI 的流量
 
 ## 本地运行
 
